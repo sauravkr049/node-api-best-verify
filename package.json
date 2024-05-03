@@ -1,0 +1,31 @@
+{
+  "name": "best-verify-kyc-process",
+  "version": "1.0.0",
+  "description": "verify kyc of user client or company",
+  "main": "server.js",
+  "scripts": {
+    "uat": "NODE_ENV=development nodemon server.js",
+    "prod": "NODE_ENV=production nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kyc",
+    "company",
+    "kyc",
+    "corporate",
+    "kyc"
+  ],
+  "author": "saurav kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "bestapii_bestverify",
+    "password": "Rishav@3459",
+    "database": "bestapii_bestverify",
+    "host": "103.149.68.55",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
